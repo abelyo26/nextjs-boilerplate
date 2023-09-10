@@ -1,0 +1,15 @@
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+
+import { InitialState } from "./types";
+
+const initialState: InitialState = {};
+
+const {{camelCase name}}Slice = createSlice({
+  name: "{{camelCase name}}",
+  initialState,
+  reducers: { },
+});
+
+export const {{camelCase name}}SliceActions = {{camelCase name}}Slice.actions;
+
+export const {{camelCase name}}Reducer = {{camelCase name}}Slice.reducer;

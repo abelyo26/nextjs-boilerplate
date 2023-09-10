@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "indent": ["off", 6, { "SwitchCase": 1 }],
+    "no-undef": "warn",
+    "quotes": "warn",
+    "no-unused-vars": "warn"
+  }
 }
