@@ -1,25 +1,25 @@
 import styled from "@emotion/styled";
 import {
-    space,
-    color,
-    layout,
-    grid,
-    background,
-    border,
-    borderRadius,
-    position,
-    shadow,
-    compose,
-    SpaceProps,
-    ColorProps,
-    LayoutProps,
-    GridProps,
-    BackgroundProps,
-    BorderProps,
-    BorderRadiusProps,
-    PositionProps,
-    ShadowProps
-  } from "styled-system";
+  space,
+  color,
+  layout,
+  grid,
+  background,
+  border,
+  borderRadius,
+  position,
+  shadow,
+  compose,
+  SpaceProps,
+  ColorProps,
+  LayoutProps,
+  GridProps,
+  BackgroundProps,
+  BorderProps,
+  BorderRadiusProps,
+  PositionProps,
+  ShadowProps,
+} from "styled-system";
 
 export const Container = styled.div<BoxProps>`
   &::-webkit-scrollbar {
@@ -48,7 +48,8 @@ export const Container = styled.div<BoxProps>`
     borderRadius,
     position,
     shadow,
-  )}`
+  )}
+`;
 
 export interface BoxProps
   extends SpaceProps,

@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 // import { ThemeProvider as Provider } from "styled-components";
 import { ThemeProvider as Provider } from "styled-components";
 
-import theme from "app/styles/theme";
+import theme from "app/[locale]/styles/theme";
 import {
   useAppDispatch,
   useAppSelector,

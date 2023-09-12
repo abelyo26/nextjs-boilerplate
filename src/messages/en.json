@@ -1,0 +1,9 @@
+{
+  "Index": {
+    "title": "Hello world!",
+    "other": {
+      "first": "first",
+      "second": "second"
+    }
+  }
+}

@@ -1,19 +1,19 @@
-import styled,{CSSObject} from "@emotion/styled";
+import styled, { CSSObject } from "@emotion/styled";
 
 import {
-    color,
-    compose,
-    fontFamily,
-    fontStyle,
-    fontSize,
-    fontWeight,
-    layout,
-    lineHeight,
-    space,
-    textAlign,
-    position,
-    variant,
-    ColorProps,
+  color,
+  compose,
+  fontFamily,
+  fontStyle,
+  fontSize,
+  fontWeight,
+  layout,
+  lineHeight,
+  space,
+  textAlign,
+  position,
+  variant,
+  ColorProps,
   FontSizeProps,
   FontWeightProps,
   FontFamilyProps,
@@ -23,12 +23,11 @@ import {
   SpaceProps,
   LayoutProps,
   PositionProps,
-  } from "styled-system";
-
+} from "styled-system";
 
 export const Text = styled.span<TextProps>`
   &:hover {
-    ${props => props.hover}
+    ${(props) => props.hover}
   }
   display: inline-block;
   ${compose(
@@ -43,7 +42,8 @@ export const Text = styled.span<TextProps>`
     lineHeight,
     position,
     space,
-    layout)}
+    layout,
+  )}
 `;
 
 export const H1 = styled.h1<TextProps>`
@@ -151,6 +151,6 @@ export interface TextProps
     LineHeightProps,
     SpaceProps,
     PositionProps {
-//   variant?: TextVariants;
+  //   variant?: TextVariants;
   hover?: CSSObject;
 }

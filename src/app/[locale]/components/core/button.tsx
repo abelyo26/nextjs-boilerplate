@@ -1,4 +1,4 @@
-import styled from "@emotion/styled"
+import styled from "@emotion/styled";
 
 export const Button = styled.button`
   padding: 32px;
@@ -10,4 +10,4 @@ export const Button = styled.button`
   &:hover {
     color: white;
   }
-`
+`;

@@ -24,15 +24,17 @@ const gap = system({
 });
 
 export const FlexBox = styled.div<FlexBoxProps>`
-    display: flex;
+  display: flex;
 
-${compose(flexbox, flex, layout, gap, backgroundColor, color)}
-`
+  ${compose(flexbox, flex, layout, gap, backgroundColor, color)}
+`;
 
 export interface FlexBoxProps
-extends BackgroundProps,AlignItemsProps,
-  ColorProps,LayoutProps,SpaceProps,
-  FlexboxProps {
-gap?: ResponsiveValue<number | string>;
-
+  extends BackgroundProps,
+    AlignItemsProps,
+    ColorProps,
+    LayoutProps,
+    SpaceProps,
+    FlexboxProps {
+  gap?: ResponsiveValue<number | string>;
 }
